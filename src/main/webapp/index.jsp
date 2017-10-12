@@ -13,19 +13,19 @@
 <title></title>
 </head>
 <%-- <%@ <jsp:include page="header.jsp"></jsp:include> %>--%> 
-<%-- <%@ include file="header.jsp" %> --%>
+
+<%@ include file="/WEB-INF/views/header.jsp" %>
 
 <body>
 	<div class="container">
 		<h2>
 			<i>Online Shopping</i>
 		</h2>
-		<div id="#myCarousel" class="carousel slide" data-ride="carousel">
+		<div id="#myCarousel" class="carousel-slide" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 				<li data-target="#myCarousel" data-slide-to="1"></li>
 				<li data-target="#myCarousel" data-slide-to="2"></li>
-				
 			</ol>
 			<div class="carousel-inner">
 				<div class="item-active">
